@@ -1,27 +1,20 @@
-# Projeto
+![Calculadora de IMC](https://github.com/user-attachments/assets/1084e94e-2d90-4a86-8b91-2cc6065dc556)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+A imagem exibe uma interface de uma Calculadora de IMC desenvolvida com HTML, TypeScript e CSS. O design apresenta um fundo roxo e elementos em tons de rosa e branco. No topo, há um título centralizado "Calculadora IMC" em negrito.
 
-## Development server
+A interface contém dois campos de entrada:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Peso: Um campo para inserir o peso (inicialmente com valor "0").
 
-## Code scaffolding
+Altura: Um campo para inserir a altura (também com valor "0").
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Abaixo, há um botão branco com texto em roxo escrito "Calcular", responsável por realizar o cálculo do IMC utilizando a fórmula:
+IMC = Peso (kg) ÷ (Altura x Altura) (m²).
 
-## Build
+Na parte inferior, há a exibição do resultado do cálculo:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+O valor do IMC, inicialmente mostrando "0".
 
-## Running unit tests
+Uma seção para a interpretação do resultado (como Peso Normal, Sobrepeso ou Obesidade Grau), mas ainda sem um valor definido na captura de tela.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+O design é simples, intuitivo e focado na usabilidade.
